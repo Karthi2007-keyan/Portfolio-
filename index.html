@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthikeyan | Software Developer & AI Developer</title>
+  <meta name="description" content="Karthikeyan is a software developer focused on AI, full-stack development, PHP, Python, Java, computer vision, and building practical real-world applications." />
+  <meta property="og:title" content="Karthikeyan | Software Developer & AI Developer" />
+  <meta property="og:description" content="Building practical software and AI-powered applications that solve real-world problems." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Karthikeyan home">
+        <span class="logo-text">K</span><span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Let's Connect</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-name reveal-up" style="--delay:0.1s">
+          <span class="name-first">KARTHIKEYAN</span>
+        </h1>
+        <div class="hero-titles reveal-up" style="--delay:0.2s">
+          <span class="title-static">Software Developer</span>
+          <span class="title-divider">·</span>
+          <span class="title-rotate" id="titleRotate">AI Developer</span>
+        </div>
+        <p class="hero-tagline reveal-up" style="--delay:0.3s">
+          Building practical software and AI-powered applications<br class="desktop-only" /> that solve real-world problems.
+        </p>
+        <div class="hero-tech-stack reveal-up" style="--delay:0.4s" aria-label="Technology stack">
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">AI</span>
+          <span class="tech-tag">Computer Vision</span>
+          <span class="tech-tag">Full-Stack</span>
+        </div>
+        <div class="hero-actions reveal-up" style="--delay:0.5s">
+          <a href="#projects" class="btn btn-primary btn-arrow">
+            View My Projects <span class="btn-arrow-icon" aria-hidden="true">→</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal-scale" style="--delay:0.3s" aria-hidden="true">
+        <div class="dev-card">
+          <div class="dev-card-header">
+            <div class="dev-card-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="dev-card-title">karthikeyan.dev</span>
+          </div>
+          <div class="dev-card-body">
+            <div class="code-line">
+              <span class="code-keyword">const</span>
+              <span class="code-var"> developer</span>
+              <span class="code-op"> = </span>
+              <span class="code-brace">{</span>
+            </div>
+            <div class="code-line code-indent">
+              <span class="code-key">name</span><span class="code-op">:</span>
+              <span class="code-str"> "Karthikeyan"</span><span class="code-comma">,</span>
+            </div>
+            <div class="code-line code-indent">
+              <span class="code-key">role</span><span class="code-op">:</span>
+              <span class="code-str"> "Software Developer"</span><span class="code-comma">,</span>
+            </div>
+            <div class="code-line code-indent">
+              <span class="code-key">focus</span><span class="code-op">:</span>
+              <span class="code-str"> "AI + Full-Stack"</span><span class="code-comma">,</span>
+            </div>
+            <div class="code-line code-indent">
+              <span class="code-key">projects</span><span class="code-op">:</span>
+              <span class="code-num"> 10</span><span class="code-op">+</span><span class="code-comma">,</span>
+            </div>
+            <div class="code-line code-indent">
+              <span class="code-key">status</span><span class="code-op">:</span>
+              <span class="code-str"> </span><span class="code-status">"Student"</span><span class="code-comma">,</span>
+            </div>
+            <div class="code-line">
+              <span class="code-brace">}</span>
+            </div>
+            <div class="code-line code-blank"></div>
+            <div class="code-line">
+              <span class="code-fn">building_real_world_apps</span><span class="code-op">()</span>
+              <span class="code-cursor">█</span>
+            </div>
+          </div>
+          <div class="dev-card-status">
+            <span class="status-dot"></span> System Online — All Systems Go
+          </div>
+        </div>
+        <div class="hero-photo-wrapper">
+          <img src="assets/karthikeyan.jpg" alt="Karthikeyan — Software Developer" class="hero-photo" loading="lazy" />
+          <div class="photo-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Stats -->
+    <div class="hero-stats reveal-up" style="--delay:0.6s">
+      <div class="stat-item">
+        <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Projects Built</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="3">0</span>
+        <span class="stat-label">2nd Prize Awards</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="13">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Certifications</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-label">Tech Symposiums</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about" aria-label="About section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p class="about-lead">
+            I learn by building. Not by watching tutorials or reading theory alone — by actually writing code, breaking things, and figuring out how to fix them.
+          </p>
+          <p class="about-body">
+            I'm a Diploma student at <strong>Sri Ramakrishna Polytechnic College</strong> with a growing focus on Artificial Intelligence and full-stack development. Over the past couple of years, I've built ten practical software projects across web development, AI/NLP, computer vision, and system design.
+          </p>
+          <p class="about-body">
+            From an AI-powered resume ranking system that uses NLP concepts to match candidates to job descriptions, to an AI Music Mentor that analyzes pitch and rhythm, to a real-time webcam-based virtual try-on e-commerce platform — each project taught me something the classroom couldn't.
+          </p>
+          <p class="about-body">
+            I've also competed at technical events and won three 2nd-prize awards, completed an internship on AI-Powered Integrated System Design, and received an Academic Excellence Award for consistent academic performance.
+          </p>
+          <div class="about-tags">
+            <span class="about-tag">Problem Solver</span>
+            <span class="about-tag">Project Builder</span>
+            <span class="about-tag">AI Enthusiast</span>
+            <span class="about-tag">Continuous Learner</span>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="about-terminal">
+            <div class="terminal-header">
+              <div class="terminal-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="terminal-title">~/karthikeyan</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line">
+                <span class="t-prompt">$</span>
+                <span class="t-cmd"> whoami</span>
+              </div>
+              <div class="terminal-line t-output">KARTHIKEYAN · Software Developer</div>
+              <div class="terminal-line t-blank"></div>
+              <div class="terminal-line">
+                <span class="t-prompt">$</span>
+                <span class="t-cmd"> ls projects/</span>
+              </div>
+              <div class="terminal-line t-output">ai-resume-ranker/</div>
+              <div class="terminal-line t-output">ai-music-mentor/</div>
+              <div class="terminal-line t-output">virtual-tryon-ecommerce/</div>
+              <div class="terminal-line t-output">financial-manager/</div>
+              <div class="terminal-line t-output">admission-portal/</div>
+              <div class="terminal-line t-output">+5 more projects...</div>
+              <div class="terminal-line t-blank"></div>
+              <div class="terminal-line">
+                <span class="t-prompt">$</span>
+                <span class="t-cmd"> cat status.txt</span>
+              </div>
+              <div class="terminal-line t-output t-green">✓ Available for opportunities</div>
+              <div class="terminal-line t-output t-green">✓ Open to internships &amp; entry-level roles</div>
+              <div class="terminal-line">
+                <span class="t-prompt">$</span>
+                <span class="t-cursor">_</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-photo-card">
+            <img src="assets/sri-ramakrishna-polytechnic-college158455483427-img.jpg" alt="Karthikeyan" class="about-photo" loading="lazy" />
+            <div class="about-photo-badge">
+              <span class="badge-icon">🎓</span>
+              Sri Ramakrishna Polytechnic College
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section" id="skills" aria-label="Skills section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">What I Work With</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Technologies and tools I've used in real projects</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal-up" style="--delay:0s">
+          <div class="skill-cat-icon" aria-hidden="true">{ }</div>
+          <h3 class="skill-cat-title">Programming</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">PHP</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Java</span><div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">C</span><div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-icon" aria-hidden="true">⬡</div>
+          <h3 class="skill-cat-title">Web Development</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">HTML / CSS</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Bootstrap</span><div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">MySQL</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Web App Dev</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-icon" aria-hidden="true">◎</div>
+          <h3 class="skill-cat-title">Artificial Intelligence</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Machine Learning</span><div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">NLP</span><div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">AI App Development</span><div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="skill-cat-icon" aria-hidden="true">◈</div>
+          <h3 class="skill-cat-title">Computer Vision</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">OpenCV</span><div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Face Mask Detection</span><div class="skill-bar"><div class="skill-fill" style="--w:68%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Hand Gesture Recognition</span><div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Eye Tracking</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.4s">
+          <div class="skill-cat-icon" aria-hidden="true">⊕</div>
+          <h3 class="skill-cat-title">Tools & Frameworks</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Flutter</span><div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Database Management</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Node.js / MongoDB</span><div class="skill-bar"><div class="skill-fill" style="--w:55%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">MATLAB</span><div class="skill-bar"><div class="skill-fill" style="--w:50%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.5s">
+          <div class="skill-cat-icon" aria-hidden="true">◑</div>
+          <h3 class="skill-cat-title">Other</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Problem Solving</span><div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Project Development</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Technical Presentation</span><div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-section" id="projects" aria-label="Projects section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Real-world applications built with purpose</p>
+      </div>
+      <!-- Project Filter -->
+      <div class="project-filters reveal-up" role="group" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="vision">Computer Vision</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+
+      <!-- Featured Projects -->
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- Project 1: AI Resume Ranking -->
+        <article class="project-card featured" data-categories="ai web" tabindex="0">
+          <div class="project-card-inner">
+            <div class="project-preview">
+              <img src="assets/project_ai_portal.png" alt="AI Resume Ranking System" class="project-preview-img-real" loading="lazy" />
+
+              <div class="project-preview-img ai-resume-bg" aria-label="AI Resume Ranking System preview">
+                <div class="project-preview-overlay">
+                  <div class="preview-icon">🤖</div>
+                  <div class="preview-lines">
+                    <div class="pline pline-1"></div>
+                    <div class="pline pline-2"></div>
+                    <div class="pline pline-3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-badge">Featured · AI</div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">AI Resume Ranking System</h3>
+              <p class="project-desc">An NLP-based system that scores and ranks candidate resumes against job descriptions — helping HR teams identify the most relevant candidates faster.</p>
+              <ul class="project-features">
+                <li>Resume analysis with NLP-based relevance scoring</li>
+                <li>Automated candidate ranking against job descriptions</li>
+                <li>Reduces manual screening effort for HR teams</li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">AI</span>
+                <span class="tech-badge">NLP</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link-placeholder">View Project →</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: AI Music Mentor -->
+        <article class="project-card featured" data-categories="ai python" tabindex="0">
+          <div class="project-card-inner">
+            <div class="project-preview">
+              <img src="assets/melodi.png" alt="AI Music Mentor" class="project-preview-img-real" loading="lazy" />
+  
+              <div class="project-preview-img ai-music-bg" aria-label="AI Music Mentor preview">
+                <div class="project-preview-overlay music-overlay">
+                  <div class="music-waves" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="preview-icon">🎵</div>
+                </div>
+              </div>
+              <div class="project-badge">Featured · AI</div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">AI Music Mentor</h3>
+              <p class="project-desc">An AI-powered music learning platform that analyzes pitch, rhythm, and performance accuracy to deliver personalized feedback and track practice progress.</p>
+              <ul class="project-features">
+                <li>Real-time pitch and rhythm analysis</li>
+                <li>Personalized AI-driven performance feedback</li>
+                <li>Progress tracking for continuous improvement</li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">AI</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link-placeholder">View Project →</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: E-Commerce -->
+        <article class="project-card" data-categories="web python" tabindex="0">
+          <div class="project-card-inner">
+            <div class="project-preview">
+              <img src="assets/project_ecommerce.png" alt="E-Commerce Website with Virtual Try-On" class="project-preview-img-real" loading="lazy" />
+              <div class="project-badge">Full-Stack · Web</div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">E-Commerce Website with Virtual Try-On</h3>
+              <p class="project-desc">A responsive e-commerce platform with product management, Bootstrap UI, and a real-time webcam-based virtual try-on feature for shirts, sarees, and glasses.</p>
+              <ul class="project-features">
+                <li>Real-time webcam virtual try-on (Python + OpenCV)</li>
+                <li>Responsive Bootstrap product card interface</li>
+                <li>Animated previews and interactive hover effects</li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">Bootstrap</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">CV</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Financial Management -->
+        <article class="project-card" data-categories="web" tabindex="0">
+          <div class="project-card-inner">
+            <div class="project-preview">
+              <div class="project-preview-img finance-bg" aria-label="Financial Management System preview">
+                <div class="project-preview-overlay">
+                  <div class="preview-icon">💰</div>
+                  <div class="finance-bars" aria-hidden="true">
+                    <span style="--h:60%"></span>
+                    <span style="--h:80%"></span>
+                    <span style="--h:45%"></span>
+                    <span style="--h:90%"></span>
+                    <span style="--h:70%"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-badge">Web App</div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Financial Management System</h3>
+              <p class="project-desc">A web application for personal finance management — tracking income, expenses, budgets, goals, and generating clear financial reports.</p>
+              <ul class="project-features">
+                <li>Income &amp; expense tracking with automated summaries</li>
+                <li>Budget planning and financial goal monitoring</li>
+                <li>Visual financial reports and balance overview</li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: College Admission Portal -->
+        <article class="project-card" data-categories="web" tabindex="0">
+          <div class="project-card-inner">
+            <div class="project-preview">
+              <img src="assets/srptc.png" alt="College Admission Portal" class="project-preview-img-real" loading="lazy" />
+
+              <div class="project-preview-img portal-bg" aria-label="College Admission Portal preview">
+                <div class="project-preview-overlay">
+                  <div class="preview-icon">🎓</div>
+                </div>
+              </div>
+              <div class="project-badge">System Design</div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">College Admission Portal</h3>
+              <p class="project-desc">A centralized admission management system with automated department allocation, attendance sheet generation, and administrative access controls.</p>
+              <ul class="project-features">
+                <li>Automated department allocation based on criteria</li>
+                <li>Attendance sheet &amp; department-wise strength analysis</li>
+                <li>Principal / admin access control panel</li>
+              </ul>
+              <div class="project-tech">
+                <span class="tech-badge">PHP</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Mini Projects -->
+      <div class="mini-projects-section reveal-up">
+        <h3 class="mini-projects-title">More Things I've Built</h3>
+        <div class="mini-projects-grid">
+          <article class="mini-card" data-categories="vision python" tabindex="0">
+            <div class="mini-icon" aria-hidden="true">👁️</div>
+            <h4 class="mini-title">Face Mask Detection</h4>
+            <p class="mini-desc">AI model for detecting proper mask usage using computer vision.</p>
+            <div class="mini-tech"><span>Python</span><span>AI</span><span>CV</span></div>
+          </article>
+          <article class="mini-card" data-categories="vision python" tabindex="0">
+            <div class="mini-icon" aria-hidden="true">✋</div>
+            <h4 class="mini-title">Hand Gesture Recognition</h4>
+            <p class="mini-desc">Real-time gesture detection system using Python and OpenCV.</p>
+            <div class="mini-tech"><span>Python</span><span>OpenCV</span></div>
+          </article>
+          <article class="mini-card" data-categories="vision python" tabindex="0">
+            <div class="mini-icon" aria-hidden="true">👀</div>
+            <h4 class="mini-title">Eye Tracking System</h4>
+            <p class="mini-desc">Computer vision-based eye tracking and recognition project.</p>
+            <div class="mini-tech"><span>Python</span><span>CV</span></div>
+          </article>
+          <article class="mini-card" data-categories="java" tabindex="0">
+            <div class="mini-icon" aria-hidden="true">🔐</div>
+            <h4 class="mini-title">Password Strength Checker</h4>
+            <p class="mini-desc">Java application for evaluating and validating password strength.</p>
+            <div class="mini-tech"><span>Java</span></div>
+          </article>
+          <article class="mini-card" data-categories="mobile" tabindex="0">
+            <div class="mini-icon" aria-hidden="true">💪</div>
+            <h4 class="mini-title">Flutter Gym App</h4>
+            <p class="mini-desc">Fitness tracking application built with Flutter for user engagement.</p>
+            <div class="mini-tech"><span>Flutter</span></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section achievements-section" id="achievements" aria-label="Achievements section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Achievements</h2>
+        <p class="section-subtitle">Technical competitions and academic recognition</p>
+      </div>
+      <div class="achievements-layout">
+        <div class="achievements-timeline">
+          <article class="achievement-item reveal-left">
+            <div class="achievement-dot">🏆</div>
+            <div class="achievement-content">
+              <div class="achievement-date">26 September 2025</div>
+              <h3 class="achievement-title">2nd Prize — Project Presentation</h3>
+              <p class="achievement-org">IEEE KPRIET CASS SBC & Department of ECE<br />KPR Institute of Engineering and Technology</p>
+              <p class="achievement-detail">Secured 2nd prize at TECHAURA'2.0 for project presentation, competing against participants from multiple institutions.</p>
+              <div class="achievement-cert-preview" role="button" tabindex="0" aria-label="View IEEE certificate" onclick="openModal('modal-ieee')">
+                <img src="assets/award_ieee.jpeg" alt="IEEE KPR Certificate of Appreciation" loading="lazy" />
+                <span>View Certificate</span>
+              </div>
+            </div>
+          </article>
+          <article class="achievement-item reveal-left" style="--delay:0.15s">
+            <div class="achievement-dot">🥈</div>
+            <div class="achievement-content">
+              <div class="achievement-date">13 March 2025</div>
+              <h3 class="achievement-title">2nd Prize — Project Expo 2025</h3>
+              <p class="achievement-org">Sri Ramakrishna Polytechnic College</p>
+              <p class="achievement-detail">Won 2nd prize at Project Expo 2025 for the AI Resume Ranking System, presented to the Computer Engineering department.</p>
+              <div class="achievement-cert-preview" role="button" tabindex="0" aria-label="View Project Expo certificate" onclick="openModal('modal-expo')">
+                <img src="assets/award_project_expo.jpeg" alt="Project Expo 2025 Certificate" loading="lazy" />
+                <span>View Certificate</span>
+              </div>
+            </div>
+          </article>
+          <article class="achievement-item reveal-left" style="--delay:0.3s">
+            <div class="achievement-dot">📄</div>
+            <div class="achievement-content">
+              <div class="achievement-date">15 September 2025</div>
+              <h3 class="achievement-title">2nd Prize — Paper Presentation</h3>
+              <p class="achievement-org">Sri Ramakrishna Polytechnic College</p>
+              <p class="achievement-detail">Won 2nd prize in paper presentation competition on the topic of Renewable Energy and Energy Storage.</p>
+              <div class="achievement-cert-preview" role="button" tabindex="0" aria-label="View Paper Presentation certificate" onclick="openModal('modal-paper')">
+                <img src="assets/award_paper.jpeg" alt="Paper Presentation Certificate" loading="lazy" />
+                <span>View Certificate</span>
+              </div>
+            </div>
+          </article>
+          <article class="achievement-item reveal-left" style="--delay:0.45s">
+            <div class="achievement-dot">⭐</div>
+            <div class="achievement-content">
+              <div class="achievement-date">Academic</div>
+              <h3 class="achievement-title">Academic Excellence Award</h3>
+              <p class="achievement-org">Sri Ramakrishna Polytechnic College</p>
+              <p class="achievement-detail">Recognized for outstanding academic performance and consistent dedication to studies.</p>
+            </div>
+          </article>
+        </div>
+        <!-- Participation -->
+        <div class="participation-section reveal-right">
+          <h3 class="participation-title">Technical Participation</h3>
+          <div class="participation-list">
+            <div class="participation-item">
+              <div class="participation-icon" aria-hidden="true">🔬</div>
+              <div class="participation-info">
+                <h4>Paper Presentation — IEEE KPRIET</h4>
+                <p>IEEE KPRIET CASS SBC, KPR Institute of Engineering and Technology</p>
+              </div>
+            </div>
+            <div class="participation-item">
+              <div class="participation-icon" aria-hidden="true">🧠</div>
+              <div class="participation-info">
+                <h4>CLUMINATI — INFINITUM'24</h4>
+                <p>State Level Technical Symposium, CIT Sandwich Polytechnic College</p>
+              </div>
+            </div>
+            <div class="participation-item">
+              <div class="participation-icon" aria-hidden="true">💡</div>
+              <div class="participation-info">
+                <h4>MIND MAIZE — INFINITUM'24</h4>
+                <p>State Level Technical Symposium, CIT Sandwich Polytechnic College</p>
+              </div>
+            </div>
+            <div class="participation-item">
+              <div class="participation-icon" aria-hidden="true">📋</div>
+              <div class="participation-info">
+                <h4>Paper Presentation — PA TECHARENA 2K25</h4>
+                <p>P.A. Polytechnic College</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience-section" id="experience" aria-label="Experience section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Where I've Worked</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="experience-card reveal-up">
+        <div class="exp-icon" aria-hidden="true">🏫</div>
+        <div class="exp-content">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-title">AI-Powered Integrated System Design Intern</h3>
+              <p class="exp-org">Sri Ramakrishna Engineering College</p>
+            </div>
+            <span class="exp-badge">Internship</span>
+          </div>
+          <div class="exp-topic">
+            <span class="exp-topic-label">Program:</span>
+            "AI-Powered Integrated System Design: A Hands-on Approach with Soft Tools"
+          </div>
+          <ul class="exp-bullets">
+            <li>Gained hands-on exposure to integrating AI concepts within system design workflows using software-based tools</li>
+            <li>Applied practical methods to understand how AI components fit into broader system design architectures</li>
+            <li>Strengthened foundational understanding of AI-assisted design approaches applicable to real-world projects</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Workshops -->
+      <div class="workshops-grid reveal-up" style="--delay:0.2s">
+        <div class="workshop-card">
+          <div class="workshop-icon" aria-hidden="true">🖥️</div>
+          <h4>PC & Laptop Troubleshooting & Networking</h4>
+          <p>Hands-on workshop conducted by IE / ISTE, Sri Ramakrishna Polytechnic College</p>
+        </div>
+        <div class="workshop-card">
+          <div class="workshop-icon" aria-hidden="true">⚡</div>
+          <h4>Circuit Design & Simulation</h4>
+          <p>Comprehensive guide using Tinkercad and Multisim, conducted by Sri Ramakrishna Engineering College</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education-section" id="education" aria-label="Education section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">My Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="education-card reveal-up">
+        <div class="edu-logo" aria-hidden="true">SNR</div>
+        <div class="edu-content">
+          <h3 class="edu-institution">Sri Ramakrishna Polytechnic College</h3>
+          <p class="edu-degree">Diploma in Computer Engineering (Polytechnic)</p>
+          <p class="edu-desc">Diploma-level technical education with a focus on practical, project-based learning. Built and presented multiple software and AI projects during this period, and received the Academic Excellence Award for outstanding academic performance. Actively participated in technical symposiums, paper presentations, and project expos alongside coursework.</p>
+          <div class="edu-highlights">
+            <span class="edu-highlight">🏆 Academic Excellence Award</span>
+            <span class="edu-highlight">🔬 10+ Projects</span>
+            <span class="edu-highlight">📋 3 Competition Awards</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section certifications-section" id="certifications" aria-label="Certifications section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Continuous Learning</span>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Courses and certifications completed across software, AI, and technology</p>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card featured-cert reveal-up" style="--delay:0s">
+          <div class="cert-icon" aria-hidden="true">🐍</div>
+          <div class="cert-info">
+            <h4>Basics of Python</h4>
+            <span class="cert-org">Uniathena</span>
+          </div>
+          <div class="cert-tag">Core Skill</div>
+        </div>
+        <div class="cert-card featured-cert reveal-up" style="--delay:0.05s">
+          <div class="cert-icon" aria-hidden="true">🌐</div>
+          <div class="cert-info">
+            <h4>Node.js &amp; MongoDB</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+          <div class="cert-tag">Core Skill</div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.1s">
+          <div class="cert-icon" aria-hidden="true">💻</div>
+          <div class="cert-info">
+            <h4>C Programming</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.15s">
+          <div class="cert-icon" aria-hidden="true">🔗</div>
+          <div class="cert-info">
+            <h4>Blockchain</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.2s">
+          <div class="cert-icon" aria-hidden="true">📊</div>
+          <div class="cert-info">
+            <h4>MATLAB</h4>
+            <span class="cert-org">GUVI</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.25s">
+          <div class="cert-icon" aria-hidden="true">🔒</div>
+          <div class="cert-info">
+            <h4>Cyber Security</h4>
+            <span class="cert-org">NoviTech R&D Pvt. Ltd.</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.3s">
+          <div class="cert-icon" aria-hidden="true">🛡️</div>
+          <div class="cert-info">
+            <h4>Critical Infrastructure Protection</h4>
+            <span class="cert-org">OPSWAT Academy</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.35s">
+          <div class="cert-icon" aria-hidden="true">📡</div>
+          <div class="cert-info">
+            <h4>IoT &amp; Electronics</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.4s">
+          <div class="cert-icon" aria-hidden="true">🖥️</div>
+          <div class="cert-info">
+            <h4>Hardware &amp; Software Fundamentals</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.45s">
+          <div class="cert-icon" aria-hidden="true">🥽</div>
+          <div class="cert-info">
+            <h4>AR Glasses</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.5s">
+          <div class="cert-icon" aria-hidden="true">⚡</div>
+          <div class="cert-info">
+            <h4>Electronics &amp; Programming Basics</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.55s">
+          <div class="cert-icon" aria-hidden="true">🎨</div>
+          <div class="cert-info">
+            <h4>3D Modeling</h4>
+            <span class="cert-org">Infosys Springboard</span>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.6s">
+          <div class="cert-icon" aria-hidden="true">🔢</div>
+          <div class="cert-info">
+            <h4>Vedic Mathematics</h4>
+            <span class="cert-org">Sri Ramakrishna Engineering College</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact" aria-label="Contact section">
+    <div class="container">
+      <div class="contact-inner reveal-up">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="contact-title">Let's Build Something<br /><span class="title-gradient">Meaningful.</span></h2>
+        <p class="contact-desc">
+          I'm interested in software development, AI, and building practical technology. If you'd like to connect, collaborate, or discuss an opportunity, I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:karthikeyananandan307@gmail.com" class="contact-link" aria-label="Send email to Karthikeyan">
+            <span class="contact-link-icon" aria-hidden="true">✉️</span>
+            <span>Email Me</span>
+            <span class="contact-link-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="https://www.linkedin.com/in/karthi-keyan-317872330 " target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Visit Karthikeyan's LinkedIn profile">
+            <span class="contact-link-icon" aria-hidden="true">in</span>
+            <span>LinkedIn</span>
+            <span class="contact-link-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="https://github.com/Karthi2007-keyan" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Visit Karthikeyan's GitHub profile">
+            <span class="contact-link-icon" aria-hidden="true">⌨️</span>
+            <span>GitHub</span>
+            <span class="contact-link-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+        <p class="contact-note">Links above are placeholder examples — update with your actual contact details.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">K<span class="footer-dot">.</span></span>
+        <p>Software Developer · AI · Full-Stack Development</p>
+      </div>
+      <p class="footer-copy">© 2026 Karthikeyan. Built with code and curiosity.</p>
+    </div>
+  </footer>
+
+  <!-- Certificate Modals -->
+  <div class="modal-overlay" id="modal-ieee" role="dialog" aria-modal="true" aria-label="IEEE Certificate" tabindex="-1" onclick="closeModal(this)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(document.getElementById('modal-ieee'))" aria-label="Close modal">✕</button>
+      <img src="assets/award_ieee.jpeg" alt="IEEE KPRIET CASS SBC Certificate of Appreciation for Project Presentation — Karthikeyan A" class="modal-img" />
+    </div>
+  </div>
+  <div class="modal-overlay" id="modal-expo" role="dialog" aria-modal="true" aria-label="Project Expo Certificate" tabindex="-1" onclick="closeModal(this)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(document.getElementById('modal-expo'))" aria-label="Close modal">✕</button>
+      <img src="assets/award_project_expo.jpeg" alt="Sri Ramakrishna Polytechnic College Project Expo 2025 Certificate — Karthikeyan" class="modal-img" />
+    </div>
+  </div>
+  <div class="modal-overlay" id="modal-paper" role="dialog" aria-modal="true" aria-label="Paper Presentation Certificate" tabindex="-1" onclick="closeModal(this)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(document.getElementById('modal-paper'))" aria-label="Close modal">✕</button>
+      <img src="assets/award_paper.jpeg" alt="Sri Ramakrishna Polytechnic College Paper Presentation Certificate — Karthikeyan A" class="modal-img" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
